@@ -7,6 +7,7 @@ import {
   Landing,
   Newsletter,
 } from "./pages";
+import { loading as landingLoader } from "./pages/Landing";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
+        loader: landingLoader,
         element: <Landing />,
       },
       {
