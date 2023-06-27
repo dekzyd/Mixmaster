@@ -21,6 +21,7 @@ const Error = () => {
     <Wrapper>
       <div>
         <h3>Something went wrong</h3>
+        {console.log(error)}
       </div>
     </Wrapper>
   );
