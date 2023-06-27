@@ -8,8 +8,8 @@ import {
   Newsletter,
   SinglePageError,
 } from "./pages";
-import { loading as landingLoader } from "./pages/Landing";
-import { loading as singleCocktailLoader } from "./pages/Cocktail";
+import { loader as landingLoader } from "./pages/Landing";
+import { loader as singleCocktailLoader } from "./pages/Cocktail";
 
 const router = createBrowserRouter([
   {
