@@ -62,7 +62,7 @@ const Newsletter = () => {
           type="email"
           name="email"
           id="email"
-          defaultValue="test@test.com"
+          placeholder="test@test.com"
           className="form-input"
         />
       </div>
